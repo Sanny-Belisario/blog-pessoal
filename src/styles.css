@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ELEGANT TYPEWRITER';
+    src: url('./assets/fonts/elegant_typewriter/ELEGANT\ TYPEWRITER\ Regular.ttf');
+    /* font-weight: 800; */
+}
+
+/* LOGIN */
+#imagem-login {
+    display: flex;
+    width: 62%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url('./assets/images/foto-livro-novo-resumo.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#imagem-shadow {
+    width: 100vw;
+    height: 100vh;
+    background-color: #627254;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: black;
+}
+
+.login {
+    display: flex;
+    background-color: #b5c183;
+}
+
+#formulario-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 38%;
+    height: 100vh;
+}
+
+#campos-login {
+    width: 20vw;
+}
+
+#botao-login {
+    background-color: #1A4D2E;
+    padding: 8px 14px 8px 14px;
+}
+
+/* HEADER */
+.bg-brown {
+    background-color: #B99470;
+    height: 12vh;
+}
+
+.bg-beige {
+    background-color: #F7DCB9;
+    height: 8vh;
+}
+
+#menu {
+    display: grid;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Birds of Paradise';
+    src: url('./assets/fonts/birds_of_paradise/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf');
+    padding: 0%;
+}
+
+.dropdown-menu a:hover, .dropdown-menu li:hover {
+    background-color: #F7DCB9;
+}
+
+.dropdown-menu .dropdown-submenu {
+    position: absolute;
+    left: 100%;
+    top: -7px;
+}
+
+li:hover > .dropdown-submenu {
+    display: block;
+}
+
+.btn-outline-brown {
+    border: 1px solid #876445;
+    margin-right: 5px;
+}
+
+.btn-outline-brown:hover {
+    background-color: #876445;
+    color: white;
+}
+
+#pesquisar {
+    justify-content: end;
+    margin: 1vw;
+}
+
+#pesquisar input {
+    width: 13vw;
+}
